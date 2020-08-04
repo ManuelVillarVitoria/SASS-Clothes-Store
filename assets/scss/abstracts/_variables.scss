@@ -5,10 +5,6 @@ $colors: (
     quaternary: #f5b149
 );
 
-@function color($color-name) {
-    @return map-get($colors, $color-name);
-}
-
 $font-sizes: (
     xl: 3rem,
     lg: 2.5rem,
@@ -17,6 +13,4 @@ $font-sizes: (
     xs: 1.6rem
 );
 
-@function size($size) {
-    @return map-get($font-sizes, $size);
-}
+$animList: 1 0s, 2 4s, 3 8s, 4 12s, 5 16s;

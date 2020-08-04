@@ -1,6 +1,4 @@
 .heading {
-    grid-column: 4 / 7;
-    grid-row: 2 / 3;
     text-align: center;
 
     &-text {
@@ -9,5 +7,4 @@
         font-weight: lighter;
         letter-spacing: 0.5rem;
     }
- 
 }

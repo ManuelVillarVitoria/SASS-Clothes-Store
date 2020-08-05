@@ -3,3 +3,12 @@
         animation-delay: nth($item, 2);
     }
 }
+
+@each $color in $socialMediaColors {
+    .social-icons-item:nth-child(#{nth($color, 1)}) .social-icons-link {
+        color: nth($color, 2);
+        border: .1rem solid nth($color, 2);
+
+    }
+
+}

@@ -7,8 +7,13 @@
 
 html {
     font-size: 62.5%;
+    @include response(md) {
+        font-size: 56.25%; // 9px / 16px
+    }
+    @include response(sm) {
+        font-size: 50%; // 8px / 16px
+    }
 }
-
 
 .container {
     background-color: color(tertiary);
